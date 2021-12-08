@@ -1,0 +1,379 @@
+/* Title Section */
+body
+{
+    font-family: 'Ubuntu', sans-serif;
+}
+#title
+{
+    background: url("https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80") no-repeat center;
+    background-size: cover;
+}
+
+.navbar-non
+{
+    background-color: #22577E;
+    color:white;
+    position: fixed;
+    z-index:10;
+    height: 30%;
+    padding-top:5%;
+}
+@media (max-width:980px)
+{
+    .navbar-non
+    {
+        padding-top: 15%;
+    }
+}
+.cf1
+{
+    /* padding-top:10%; */
+}
+
+.title-heading
+{
+    font-size: 3rem;
+    margin-top:2%;
+    margin-left: 5%;
+}
+.title-span
+{
+    color:#1597E5;
+}
+.navbar-nav
+{
+    margin-right:10%;
+    margin-top:2%;
+}
+.nav-item
+{
+    font-size:1.5rem; 
+    padding-right:15%;
+}
+.title-btn:hover
+{
+    color:#1597E5;
+}
+
+
+/* profile section */
+
+.info
+{
+    padding:7% 9%;
+    box-shadow: 0px 5px 5px 1px  rgba(0, 0, 255, .2);
+    
+   
+}
+.name1, .name2, .name3  
+{
+    margin-bottom: 3%;
+    font-size:2rem;
+    color:white;
+}
+
+.name2
+{
+    font-size:4.5rem;
+    color:#1597E5;
+    margin-bottom:3%;
+    
+    
+}
+.profile-image
+{
+    width:50%;
+    border-radius: 100%;
+    position: relative;
+    left:40%;
+    bottom:5%;
+}
+.hire_me
+{
+    margin-left: 15%;
+    font-size: 25px;
+}
+@media (max-width:970px)
+{
+.info
+{
+    text-align: center;
+}
+.profile-image
+{
+    position: static;
+    margin-top:50px;
+    padding:auto;
+    z-index: 20;
+}
+.hire_me
+{
+    padding: auto;
+     margin:auto;
+}
+}
+
+/* ABOUT ME Section */
+
+#about-me
+{
+    text-align: center;
+    margin-top:7%;
+}
+.aboutme
+{
+    font-size:3rem;
+}
+hr
+{
+    border-style:dotted none none;
+    width:12%;
+    border-width: 1.5rem;
+    margin:auto;
+    background-color:white;
+}
+.myinfo
+{
+    margin-top:100px;
+}
+.myphoto
+{
+    width:300px;
+    border-radius: 100px;
+    display: inline-block;
+    margin: 0px 150px;
+    
+}
+.mydetails
+{
+    text-align: left;
+    display: inline-block;
+}
+.dev
+{
+    color:#1597E5;
+}
+.myheading
+{
+    margin-bottom:50px;
+}
+.bio
+{
+    font-size:1.5rem;
+}
+@media (max-width:1400px)
+{
+    .myphoto
+    {
+        margin:auto;
+    }
+    .mydetails
+    {
+        text-align: center;
+          margin:auto;
+    }
+}
+
+/* MY SKILLS */
+#my-skills
+{
+    margin-top:7%;
+    padding-bottom: 7%;
+    background: #111    ;
+    color:white;
+   
+}
+.myskills
+{
+    padding-top:7%;
+    font-size:3rem;
+    color:white;
+    text-align: center;
+    letter-spacing: 5px;
+    padding-bottom:0.2%;
+}
+.hr2
+{
+    background-color: #1F1D36;
+    color:white;
+}
+.progress
+{
+width:90%;   
+}
+h4
+{
+ text-align: left;   
+}
+.skilldetails
+{
+    padding-top: 7%;
+    font-size:1.3rem;
+    text-align: left;
+}
+.progressbars
+{
+    position: relative;
+    left:35px;
+}
+.rowclass
+{
+    padding-top:100px;
+}
+
+/* Contact me */
+#contactme
+{
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+.contact-heading
+{
+    text-align: center;
+}
+.letstalk
+{
+    font-size: 1.3rem;
+}
+.contact-me
+{
+    margin-top: 7%;
+}
+.details
+{
+    margin-top: 4%;
+}
+.fa-2x
+{
+    float:left;
+    color:#1597E5;
+}
+.d1
+{
+    margin-left:9%;
+}
+.field
+{
+    border-radius: 10px;
+    outline:none;
+    border:1px solid lightgray;
+    padding:0 15px;
+    font-size: 1.5rem;
+}
+.box1 
+{
+    width:40%;
+    height: 60px;
+    margin-bottom: 3%;
+}
+.box2
+{
+    width:40%;
+    height: 60px;
+    margin-left: 20px;   
+}
+.box3
+{
+    height:60px;
+    width:84%;
+    margin-bottom: 3%;
+}
+.box4
+{
+    height:100px;
+    width:84%;
+    margin-bottom:3%;
+}
+.subbutton
+{
+    padding:auto;
+    width:84%;
+    height:60px;
+    font-size:1.7rem;
+    letter-spacing: 1px;
+}
+#socials
+{
+    background: #111;
+    padding-top:6%;
+    color:white;
+    padding-bottom: 6%;
+}
+.social-id
+{
+    margin-bottom: 3%;
+}
+.sd1
+{
+    color:white;
+    margin-left:32%;
+}
+.sd2
+{
+    color:white;
+    margin-left:7%;
+}
+.sd3
+{
+    color:white;
+    margin-left:7%;
+}
+.sd4
+{
+    color:white;
+    margin-left:7%;
+}
+.sd1:hover
+{
+color:#424642;
+}
+.sd2:hover
+{
+    color:#1597E5
+    
+}
+.sd3:hover
+{
+    color:#EC255A;
+   
+}
+.sd4:hover{
+    color:#22577E;
+}
+.social-p
+{
+    
+    font-size:1.5rem;
+    text-align: center;
+    line-height: 0.5;
+}
+.myname
+{
+    color: #1597E5;
+}
+/* Classes used in javascript */
+.form
+{
+    text-align: center;
+    margin:auto;
+    width:400px;
+    background-color: white;
+    box-shadow: 3px 3px 1px 1px gray;
+    display:none;
+    z-index:5;
+    position: absolute;
+    left:40rem;
+    top:140rem;
+}
+@media (max-width:990px)
+{
+    .form
+    {
+            top:200rem;
+            left:20rem;
+    }
+}
+.done
+{
+    width:300px;
+}
